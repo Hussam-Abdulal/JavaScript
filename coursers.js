@@ -1,28 +1,28 @@
 const coursers = [
     {
-        title: 'JavaScript for eperts',
+        title: 'JavaScript for experts',
         number: 2522
     },
     {
-        title: 'ddddd for eperts',
+        title: 'ddddd for experts',
         number: 7865
     },
     {
-        title: 'Jaaaa for eperts',
-        number: 4566
-    },
-    
-
-]
+        title: 'Jaaaa for experts',
+        number: 0000
+    }
+];
 
 function initPage() {
-    listCourser();
+    listCourses();
 }
 
-function listCourser() {
+function listCourses() {
     coursers.forEach((course) => {
         console.log(course);
     });
-    
 }
-document.addEventListener('DomContentLoad', initPage);
+
+document.addEventListener('DOMContentLoaded', initPage);
+
+console.log(coursers); 
