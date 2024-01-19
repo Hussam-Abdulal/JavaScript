@@ -25,4 +25,4 @@ function listCourser() {
     });
     
 }
- document.addEventListener('DomContentLoad', init
+document.addEventListener('DomContentLoad', initPage);
